@@ -288,6 +288,7 @@ section {
   gap: 30px;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: stretch;
 }
 
 .card {
@@ -297,6 +298,9 @@ section {
   width: 300px;
   transition: 0.4s;
   cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .card:hover {
@@ -583,6 +587,7 @@ section {
   justify-content: center;
   gap: 30px;
   flex-wrap: wrap;
+  align-item: stretch;
 }
 
 .cert-card {
@@ -592,6 +597,9 @@ section {
   border-radius: 20px;
   transition: 0.4s ease;
   box-shadow: 0 0 20px rgba(138,108,255,0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .cert-card:hover {
@@ -625,6 +633,7 @@ section {
   text-decoration: none;
   font-size: 14px;
   transition: 0.3s;
+  margin-top: auto;
 }
 
 .cert-btn:hover {
